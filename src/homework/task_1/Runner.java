@@ -4,6 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Задача 1
+ * Создать коллекцию целых чисел и заполнить ее значениями, введенными с консоли.
+ * При заполнении коллекции числами с консоли следует делать приведения типа.
+ * Код для привдения строки к числу можно использовать следующий:
+ * 	int i = Integer.parseInt(str);
+ * 	или
+ * 	int val = Integer.valueOf(str);
+ * Для окончания ввода введите слово "exit".
+ * При приведении строки к числу, следует учитывать возможность исключений.
+ */
 public class Runner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
