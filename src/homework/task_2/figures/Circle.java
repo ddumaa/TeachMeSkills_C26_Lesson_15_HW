@@ -10,12 +10,4 @@ public class Circle extends BaseFigures {
         System.out.print("Perimeter circle: ");
         return 2 * 3.14 * radius;
     }
-
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
 }
