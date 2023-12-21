@@ -16,6 +16,7 @@ public class Runner {
         name.add("Ivan");
         name.add("Andrey");
         name.add("nameTG: Strfend");
+        name.add("Sergey");
         System.out.println(name);
     }
 }
